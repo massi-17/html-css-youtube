@@ -1,0 +1,33 @@
+/* SIDEBAR */
+@media screen and (max-width: 1330px) {
+  .side-bar {
+    width: 70px;
+  }
+
+  .menu-item {
+  flex-direction: column;
+  font-size: 12px;
+  gap: 7px;
+  }
+  
+  .menu-item .icon {
+    margin-right: 0;
+  }
+
+  .widget {
+    border: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+ 
+  .widget:last-child, .personal li:not(:first-child) {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  .side-bar {
+    display: none;
+  }
+}
