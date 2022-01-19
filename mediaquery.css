@@ -48,3 +48,10 @@
     width: 49%;
   }
 }
+
+/* MOBILE*/
+@media screen and (max-width: 510px) {
+  .play-list-item {
+    width: 100%;
+  }
+}
