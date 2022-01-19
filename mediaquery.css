@@ -41,3 +41,10 @@
     width: 30%;
   }
  }
+
+ /* TABLET */
+@media screen and (max-width: 890px) {
+  .play-list-item {
+    width: 49%;
+  }
+}
