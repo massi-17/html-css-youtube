@@ -31,3 +31,13 @@
     display: none;
   }
 }
+
+
+/* PLAYLIST */
+
+/* DESKTOP */
+@media screen and (max-width: 1140px) {
+  .play-list-item {
+    width: 30%;
+  }
+ }
